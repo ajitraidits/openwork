@@ -1685,7 +1685,7 @@ class ClientQuestionnaireService
         }
     }
 
-    function group_by($array)
+    public function group_by($array): ?array
     {
         try {
             $result = array();
